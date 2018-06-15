@@ -1,0 +1,11 @@
+[alias]
+	st = status
+	co = checkout
+	ci = commit
+	br = branch
+	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --all --decorate --oneline --graph --date=short
+[push]
+	default = simple
+[user]
+	name = Anton Brekhov
+	email = anton@abrekhov.ru
