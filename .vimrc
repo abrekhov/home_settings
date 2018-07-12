@@ -110,3 +110,5 @@ endfunction
 "Suppress new line after autocomplete selection
 :inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 
+"Folding by indent
+:set foldmethod=indent
