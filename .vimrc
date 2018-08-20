@@ -36,7 +36,8 @@ syntax enable
 "
 set background=dark
 set t_Co=256 
-colors paper
+colors gruvbox
+"colors paper
 "colors bjorn 
 
 if &term == "screen"
@@ -112,3 +113,4 @@ endfunction
 
 "Folding by indent
 :set foldmethod=indent
+:set foldlevel=1
