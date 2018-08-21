@@ -110,6 +110,9 @@ endfunction
 
 "Suppress new line after autocomplete selection
 :inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
+"Going throuh tabs by Alt+arrowkey
+:nnoremap <Esc>^[[1;3C :tabn<CR>
+:nnoremap <Esc>^[[1;3D :tabp<CR>
 
 "Folding by indent
 :set foldmethod=indent
