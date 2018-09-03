@@ -61,7 +61,6 @@ autocmd BufReadPost *
 \   exe "normal g`\"" |
 \ endif
 endif " has("autocmd")
-:map <F5> :w<CR>
 
 " AUTO CLOSE TAG HTML
 " filenames like *.xml, *.html, *.xhtml, ...
@@ -117,3 +116,6 @@ endfunction
 "Folding by indent
 :set foldmethod=indent
 :set foldlevel=1
+"F5 for save
+:nnoremap <F5> <ESC>:w<CR>
+:inoremap <F5> <ESC>:w<CR>
