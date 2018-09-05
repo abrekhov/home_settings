@@ -109,6 +109,7 @@ endfunction
 
 "Suppress new line after autocomplete selection
 :inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
+
 "Going throuh tabs by Alt+arrowkey
 :nnoremap <Esc>^[[1;3C :tabn<CR>
 :nnoremap <Esc>^[[1;3D :tabp<CR>
@@ -116,6 +117,11 @@ endfunction
 "Folding by indent
 :set foldmethod=indent
 :set foldlevel=1
+
 "F5 for save
 :nnoremap <F5> <ESC>:w<CR>
 :inoremap <F5> <ESC>:w<CR>
+
+"HTML syntax highlight for ejs templates by default
+autocmd BufNewFile,BufRead *.ejs set syntax=html
+
