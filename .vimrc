@@ -138,3 +138,26 @@ endfunc
 "HTML syntax highlight for ejs templates by default
 autocmd BufNewFile,BufRead *.ejs set syntax=html
 
+"Functions for copy/paste from outerClipBoard
+function NormalMode()
+    set mouse=a
+    set nu
+    set nopaste
+endfunc
+
+function CopyToClipBoardMode()
+    set mouse=
+    set nu!
+    set paste
+endfunc
+
+function PasteFromClipBoardMode()
+    set mouse=a
+    set nu
+    set paste
+endfunc
+
+:map <F2> <ESC>:call NormalMode()<CR>
+:map <F3> <ESC>:call CopyToClipBoardMode()<CR>
+:map <F4> <ESC>:call PasteFromClipBoardMode()<CR>
+
