@@ -117,3 +117,18 @@ endfunction
 "Folding by indent
 :set foldmethod=indent
 :set foldlevel=1
+"Saving by F5
+:nnoremap <F5> <ESC>:w<CR> 
+:inoremap <F5> <ESC>:w<CR> 
+:noremap <C-N><C-N> :set invnumber<CR>
+:set pastetoggle=<F2>
+function! ToggleMouse()
+    " check if mouse is enabled
+    if &mouse == 'a'
+        " disable mouse
+        set mouse=
+    else
+        " enable mouse everywhere
+        set mouse=a
+    endif
+endfunc
