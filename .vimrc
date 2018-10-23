@@ -150,3 +150,10 @@ endfunc
 :map <F3> <ESC>:call CopyToClipBoardMode()<CR>
 :map <F4> <ESC>:call PasteFromClipBoardMode()<CR>
 
+"GoBuffer
+:set hidden
+:noremap gb <ESC>:tabe
+:noremap ge <ESC>:e 
+
+"Search what is selected
+:map <F7> y<ESC>/<C-R>"
