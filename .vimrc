@@ -153,11 +153,11 @@ endfunc
 "GoBuffer
 :set hidden
 :noremap gb <ESC>:tabe 
+:noremap gd <ESC>:tabe ./
 :noremap ge <ESC>:e 
 
 "Search what is selected
 :map <F7> y<ESC>/<C-R>"
 
 "Clear screen after closing
-
 :set t_te=[H[2J
