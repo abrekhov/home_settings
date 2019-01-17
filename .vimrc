@@ -128,19 +128,19 @@ endfunction
 autocmd BufNewFile,BufRead *.ejs set syntax=html
 
 "Functions for copy/paste from outerClipBoard
-function NormalMode()
+function! NormalMode()
     set mouse=a
     set nu
     set nopaste
 endfunc
 
-function CopyToClipBoardMode()
+function! CopyToClipBoardMode()
     set mouse=
     set nu!
     set paste
 endfunc
 
-function PasteFromClipBoardMode()
+function! PasteFromClipBoardMode()
     set mouse=a
     set nu
     set paste
