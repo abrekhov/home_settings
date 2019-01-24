@@ -146,9 +146,12 @@ function! PasteFromClipBoardMode()
     set paste
 endfunc
 
-:map <F2> <ESC>:call NormalMode()<CR>
-:map <F3> <ESC>:call CopyToClipBoardMode()<CR>
-:map <F4> <ESC>:call PasteFromClipBoardMode()<CR>
+:nmap <F2> <ESC>:call NormalMode()<CR>
+:imap <F2> <ESC>:call NormalMode()<CR>
+:nmap <F3> <ESC>:call CopyToClipBoardMode()<CR>
+:imap <F3> <ESC>:call CopyToClipBoardMode()<CR>
+:nmap <F4> <ESC>:call PasteFromClipBoardMode()<CR>
+:imap <F4> <ESC>:call PasteFromClipBoardMode()<CR>
 
 "GoBuffer
 :set hidden
