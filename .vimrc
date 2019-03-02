@@ -163,7 +163,7 @@ endfunc
 :map <F7> y<ESC>/<C-R>"
 
 "Clear screen after closing
-:set t_te=[H[2J
+:set t_te=[H[39;49m[2J
 
 "Make cursor as block on Cygwin terminal
 let &t_ti.="\e[1 q"
