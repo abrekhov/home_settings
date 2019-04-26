@@ -1,3 +1,58 @@
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
+
+"Common
+Plugin 'scrooloose/nerdtree'
+Plugin 'valloric/youcompleteme'
+Plugin 'xolox/vim-easytags'
+Plugin 'majutsushi/tagbar'
+Plugin 'tpope/vim-fugitive'
+Plugin 'easymotion/vim-easymotion'
+Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'terryma/vim-multiple-cursors'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'matze/vim-move'
+Plugin 'raimondi/delimitmate'
+Plugin 'mattn/emmet-vim'
+Plugin 'scrooloose/syntastic'
+Plugin 'tpope/vim-surround'
+Plugin 'sirver/ultisnips'
+Plugin 'honza/vim-snippets'
+Plugin 'xolox/vim-session'
+Plugin 'xolox/vim-misc'
+Plugin 'SyntaxAttr.vim'
+Plugin 'dyng/ctrlsf.vim'
+Plugin 'rking/ag.vim'
+Plugin 'godlygeek/tabular'
+
+"PHP plugins
+Plugin 'stanangeloff/php.vim'
+Plugin 'sumpygump/php-documentor-vim'
+Plugin 'arnaud-lb/vim-php-namespace'
+
+"Javascript
+Plugin 'pangloss/vim-javascript'
+
+"HTML
+Plugin 'othree/html5.vim'
+
+
+"CSS
+Plugin 'mtscout6/vim-tagbar-css'
+
+call vundle#end()            " required
+filetype plugin indent on    " required
+
+
 let tab=4
 exe 'set tabstop=' .tab
 exe 'set shiftwidth=' . tab
@@ -170,3 +225,40 @@ let &t_ti.="\e[1 q"
 let &t_SI.="\e[5 q"
 let &t_EI.="\e[1 q"
 let &t_te.="\e[0 q"
+
+"Map leader
+:let mapleader = ","
+
+"Run scripts
+:map <leader>r <ESC>:w!<CR>:!./%<CR>
+
+
+" nerdtree
+let NERDTreeAutoDeleteBuffer = 1
+
+" youcompleteme
+let g:ycm_server_python_interpreter='python'
+let g:ycm_autoclose_preview_window_after_completion = 1
+let g:= ['<Down>']
+
+" emmet
+let g:user_emmet_expandabbr_key = '<C-e>'
+
+" airline
+"let g:airline_theme='solarized'
+"let g:airline_powerline_fonts = 1
+"let g:airline#extensions#tabline#enabled = 1
+"let g:airline#extensions#tabline#tab_min_count = 0
+"let g:airline#extensions#tabline#formatter = 'unique_tail'
+"let g:airline#extensions#tabline#show_buffers = 0
+"let g:airline#extensions#tabline#fnamemod = ':t'
+"let g:airline_section_warning = ''
+"let g:airline_section_error = ''
+"let g:airline#extensions#tabline#show_close_button = 0
+"let g:airline#extensions#tabline#left_alt_sep = ''
+"let g:airline#extensions#tagbar#enabled = 0
+"let g:airline#extensions#tabline#show_tab_nr = 1
+"let g:airline#extensions#tabline#tab_nr_type = 1
+
+" session
+let g:session_autosave = 'no'
