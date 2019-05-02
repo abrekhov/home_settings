@@ -10,7 +10,7 @@ Plugin 'VundleVim/Vundle.vim'
 
 "Common
 Plugin 'scrooloose/nerdtree'
-Plugin 'valloric/youcompleteme'
+"Plugin 'valloric/youcompleteme'
 Plugin 'xolox/vim-easytags'
 Plugin 'majutsushi/tagbar'
 Plugin 'tpope/vim-fugitive'
@@ -23,7 +23,7 @@ Plugin 'scrooloose/nerdcommenter'
 Plugin 'matze/vim-move'
 Plugin 'raimondi/delimitmate'
 Plugin 'mattn/emmet-vim'
-Plugin 'scrooloose/syntastic'
+"Plugin 'scrooloose/syntastic'
 Plugin 'tpope/vim-surround'
 Plugin 'sirver/ultisnips'
 Plugin 'honza/vim-snippets'
@@ -152,14 +152,6 @@ set laststatus=2
 "Never type the same word twice and maybe learn a new spellings!
 "Use the Linux dictionary when spelling is in doubt.
 "Window users can copy the file to their machine.
-function! Tab_Or_Complete()
-  if col('.')>1 && strpart( getline('.'), col('.')-2, 3 ) =~ '^\w'
-    return "\<C-N>"
-  else
-    return "\<Tab>"
-  endif
-endfunction
-:inoremap <Tab> <C-R>=Tab_Or_Complete()<CR>
 :set dictionary="/usr/dict/words"
 
 "Suppress new line after autocomplete selection
@@ -237,28 +229,39 @@ let &t_te.="\e[0 q"
 let NERDTreeAutoDeleteBuffer = 1
 
 " youcompleteme
-let g:ycm_server_python_interpreter='python'
-let g:ycm_autoclose_preview_window_after_completion = 1
-let g:= ['<Down>']
+"let g:ycm_server_python_interpreter='python'
+"let g:ycm_autoclose_preview_window_after_completion = 1
+"let g:= ['<Down>']
 
 " emmet
 let g:user_emmet_expandabbr_key = '<C-e>'
 
 " airline
-"let g:airline_theme='solarized'
-"let g:airline_powerline_fonts = 1
-"let g:airline#extensions#tabline#enabled = 1
-"let g:airline#extensions#tabline#tab_min_count = 0
-"let g:airline#extensions#tabline#formatter = 'unique_tail'
-"let g:airline#extensions#tabline#show_buffers = 0
-"let g:airline#extensions#tabline#fnamemod = ':t'
-"let g:airline_section_warning = ''
-"let g:airline_section_error = ''
-"let g:airline#extensions#tabline#show_close_button = 0
-"let g:airline#extensions#tabline#left_alt_sep = ''
-"let g:airline#extensions#tagbar#enabled = 0
-"let g:airline#extensions#tabline#show_tab_nr = 1
-"let g:airline#extensions#tabline#tab_nr_type = 1
+let g:airline_theme='hybridline'
+let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#tab_min_count = 0
+let g:airline#extensions#tabline#formatter = 'unique_tail'
+let g:airline#extensions#tabline#show_buffers = 0
+let g:airline#extensions#tabline#fnamemod = ':t'
+let g:airline_section_warning = ''
+let g:airline_section_error = ''
+let g:airline#extensions#tabline#show_close_button = 0
+let g:airline#extensions#tabline#left_alt_sep = ''
+let g:airline#extensions#tagbar#enabled = 0
+let g:airline#extensions#tabline#show_tab_nr = 1
+let g:airline#extensions#tabline#tab_nr_type = 1
+
 
 " session
 let g:session_autosave = 'no'
+
+" Tab autocompletion
+function! Tab_Or_Complete()
+  if col('.')>1 && strpart( getline('.'), col('.')-2, 3 ) =~ '^\w'
+    return "\<C-N>"
+  else
+    return "\<Tab>"
+  endif
+endfunction
+:inoremap <Tab> <C-R>=Tab_Or_Complete()<CR>
