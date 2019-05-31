@@ -11,7 +11,7 @@ Plugin 'VundleVim/Vundle.vim'
 "Common
 Plugin 'scrooloose/nerdtree'
 "Plugin 'valloric/youcompleteme'
-Plugin 'xolox/vim-easytags'
+"Plugin 'xolox/vim-easytags'
 Plugin 'majutsushi/tagbar'
 Plugin 'tpope/vim-fugitive'
 Plugin 'easymotion/vim-easymotion'
