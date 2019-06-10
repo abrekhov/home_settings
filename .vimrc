@@ -154,9 +154,6 @@ set laststatus=2
 "Window users can copy the file to their machine.
 :set dictionary="/usr/dict/words"
 
-"Suppress new line after autocomplete selection
-:inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
-
 "Going throuh tabs by Alt+arrowkey
 :nnoremap <Esc>^[[1;3C :tabn<CR>
 :nnoremap <Esc>^[[1;3D :tabp<CR>
@@ -173,6 +170,7 @@ set laststatus=2
 
 "HTML syntax highlight for ejs templates by default
 autocmd BufNewFile,BufRead *.ejs set syntax=html
+autocmd BufNewFile,BufRead *.vue set filetype=html
 
 "Functions for copy/paste from outerClipBoard
 function! NormalMode()
@@ -255,6 +253,9 @@ let g:airline#extensions#tabline#tab_nr_type = 1
 
 " session
 let g:session_autosave = 'no'
+
+"Suppress new line after autocomplete selection
+:inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 
 " Tab autocompletion
 function! Tab_Or_Complete()

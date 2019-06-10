@@ -1,0 +1,89 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+ASCII_ESC	/Users/anton/Desktop/ART/STUDIES/DIPLOM/bin/scripts/smooth_pcm_full.c	/^#define ASCII_ESC /;"	d	language:C++	file:
+bohrInAngs	/Users/anton/Desktop/ART/STUDIES/DIPLOM/bin/scripts/cube_gen.py	/^    bohrInAngs=0.188973$/;"	v	language:Python	class:CubeGen
+calcResult	/Users/anton/Desktop/ART/STUDIES/DIPLOM/bin/scripts/smooth_pcm_full.c	/^void calcResult(int N_PCM, double *pcm, int N_ESP, double **volumeData, double *atoms, double *startcoor, int *Npts, double bohrInAngs, double treshold, double factor){$/;"	f	language:C++
+checkAll	/Users/anton/CODE/nodejs/hashchecker.js	/^function checkAll(){$/;"	f	language:JavaScript
+checkFile	/Users/anton/CODE/nodejs/hashchecker.js	/^function checkFile(line){$/;"	f	language:JavaScript
+component	/Users/anton/CODE/webpack-demo/src/index.js	/^function component() {$/;"	f	language:JavaScript
+CopyToClipBoardMode	/Users/anton/.vimrc	/^function! CopyToClipBoardMode()$/;"	f	language:Vim
+Cube	/Users/anton/Desktop/ART/STUDIES/DIPLOM/bin/scripts/cube_gen.py	/^class Cube(object):$/;"	c	language:Python
+CubeGen	/Users/anton/Desktop/ART/STUDIES/DIPLOM/bin/scripts/cube_gen.py	/^    CubeGen = CubeGen(input_filename)$/;"	v	language:Python	class:Cube
+CubeGen	/Users/anton/Desktop/ART/STUDIES/DIPLOM/bin/scripts/cube_gen.py	/^class CubeGen(object):$/;"	c	language:Python
+cubes	/Users/anton/Desktop/ART/STUDIES/DIPLOM/bin/scripts/cube_gen.py	/^    cubes=[]$/;"	v	language:Python	class:CubeGen
+g:airline#extensions#tabline#enabled	/Users/anton/.vimrc	/^let g:airline#extensions#tabline#enabled = 1$/;"	v	language:Vim
+g:airline#extensions#tabline#fnamemod	/Users/anton/.vimrc	/^let g:airline#extensions#tabline#fnamemod = ':t'$/;"	v	language:Vim
+g:airline#extensions#tabline#formatter	/Users/anton/.vimrc	/^let g:airline#extensions#tabline#formatter = 'unique_tail'$/;"	v	language:Vim
+g:airline#extensions#tabline#left_alt_sep	/Users/anton/.vimrc	/^let g:airline#extensions#tabline#left_alt_sep = ''$/;"	v	language:Vim
+g:airline#extensions#tabline#show_buffers	/Users/anton/.vimrc	/^let g:airline#extensions#tabline#show_buffers = 0$/;"	v	language:Vim
+g:airline#extensions#tabline#show_close_button	/Users/anton/.vimrc	/^let g:airline#extensions#tabline#show_close_button = 0$/;"	v	language:Vim
+g:airline#extensions#tabline#show_tab_nr	/Users/anton/.vimrc	/^let g:airline#extensions#tabline#show_tab_nr = 1$/;"	v	language:Vim
+g:airline#extensions#tabline#tab_min_count	/Users/anton/.vimrc	/^let g:airline#extensions#tabline#tab_min_count = 0$/;"	v	language:Vim
+g:airline#extensions#tabline#tab_nr_type	/Users/anton/.vimrc	/^let g:airline#extensions#tabline#tab_nr_type = 1$/;"	v	language:Vim
+g:airline#extensions#tagbar#enabled	/Users/anton/.vimrc	/^let g:airline#extensions#tagbar#enabled = 0$/;"	v	language:Vim
+g:airline_powerline_fonts	/Users/anton/.vimrc	/^let g:airline_powerline_fonts = 1$/;"	v	language:Vim
+g:airline_section_error	/Users/anton/.vimrc	/^let g:airline_section_error = ''$/;"	v	language:Vim
+g:airline_section_warning	/Users/anton/.vimrc	/^let g:airline_section_warning = ''$/;"	v	language:Vim
+g:airline_theme	/Users/anton/.vimrc	/^let g:airline_theme='hybridline'$/;"	v	language:Vim
+g:closetag_close_shortcut	/Users/anton/.vimrc	/^let g:closetag_close_shortcut = '<leader>>'$/;"	v	language:Vim
+g:closetag_emptyTags_caseSensitive	/Users/anton/.vimrc	/^let g:closetag_emptyTags_caseSensitive = 1$/;"	v	language:Vim
+g:closetag_filenames	/Users/anton/.vimrc	/^let g:closetag_filenames = '*.html,*.xhtml,*.phtml'$/;"	v	language:Vim
+g:closetag_shortcut	/Users/anton/.vimrc	/^let g:closetag_shortcut = '>'$/;"	v	language:Vim
+g:closetag_xhtml_filenames	/Users/anton/.vimrc	/^let g:closetag_xhtml_filenames = '*.xhtml,*.jsx'$/;"	v	language:Vim
+g:session_autosave	/Users/anton/.vimrc	/^let g:session_autosave = 'no'$/;"	v	language:Vim
+g:user_emmet_expandabbr_key	/Users/anton/.vimrc	/^let g:user_emmet_expandabbr_key = '<C-e>'$/;"	v	language:Vim
+input_filename	/Users/anton/Desktop/ART/STUDIES/DIPLOM/bin/scripts/cube_gen.py	/^    input_filename=sys.argv[1]$/;"	v	language:Python	class:Cube
+interpolate	/Users/anton/Desktop/ART/STUDIES/DIPLOM/objects/4ALA/1l2y/center.py	/^from scipy import interpolate$/;"	i	language:Python
+interpolateCubesToGlobal	/Users/anton/Desktop/ART/STUDIES/DIPLOM/bin/scripts/cube_gen.py	/^    def interpolateCubesToGlobal(self):$/;"	m	language:Python	class:CubeGen
+interpolateCubeToGlobal	/Users/anton/Desktop/ART/STUDIES/DIPLOM/bin/scripts/cube_gen.py	/^    def interpolateCubeToGlobal(self, globalMatrix, XV, YV, ZV):$/;"	m	language:Python	class:Cube
+j	/Users/anton/Desktop/stones.js	/^var j   = [];$/;"	v	language:JavaScript
+line	/Users/anton/Desktop/stones.js	/^var line = 0;$/;"	v	language:JavaScript
+main	/Users/anton/Desktop/ART/STUDIES/DIPLOM/bin/scripts/smooth_pcm_full.c	/^int main(int argc, char *argv[])$/;"	f	language:C++
+main	/Users/anton/Desktop/checkamte.c	/^int main(){$/;"	f	language:C++
+main	/Users/anton/Desktop/index.js	/^function main() {$/;"	f	language:JavaScript
+main	/Users/anton/Desktop/robot.c	/^int main(){$/;"	f	language:C++
+matplotlib	/Users/anton/Desktop/ART/STUDIES/DIPLOM/objects/4ALA/1l2y/center.py	/^import matplotlib.pyplot as plt$/;"	i	language:Python
+MAXBUFSIZE	/Users/anton/Desktop/ART/STUDIES/DIPLOM/bin/scripts/cube_gen.py	/^MAXBUFSIZE=1000000$/;"	v	language:Python
+md5	/Users/anton/CODE/nodejs/hashchecker.js	/^function md5(filename){$/;"	f	language:JavaScript
+module.exports.entry	/Users/anton/CODE/webpack-demo/webpack.config.js	/^  entry: '.\/src\/index.js',$/;"	p	language:JavaScript
+module.exports.mode	/Users/anton/CODE/webpack-demo/webpack.config.js	/^  mode: 'development',$/;"	p	language:JavaScript
+module.exports.output	/Users/anton/CODE/webpack-demo/webpack.config.js	/^  output: {$/;"	p	language:JavaScript
+NATOMS	/Users/anton/Desktop/ART/STUDIES/DIPLOM/bin/scripts/cube_gen.py	/^    NATOMS=0$/;"	v	language:Python	class:CubeGen
+NERDTreeAutoDeleteBuffer	/Users/anton/.vimrc	/^let NERDTreeAutoDeleteBuffer = 1$/;"	v	language:Vim
+NormalMode	/Users/anton/.vimrc	/^function! NormalMode()$/;"	f	language:Vim
+np	/Users/anton/Desktop/ART/STUDIES/DIPLOM/bin/scripts/cube_gen.py	/^import numpy as np$/;"	i	language:Python
+np	/Users/anton/Desktop/ART/STUDIES/DIPLOM/objects/4ALA/1l2y/center.py	/^import numpy as np$/;"	i	language:Python
+openfile	/Users/anton/Desktop/ART/STUDIES/DIPLOM/bin/scripts/cube_gen.py	/^    def openfile(self, filename):$/;"	m	language:Python	class:CubeGen
+os	/Users/anton/Desktop/ART/STUDIES/DIPLOM/objects/4ALA/1l2y/center.py	/^import sys, os, time, re$/;"	i	language:Python
+PasteFromClipBoardMode	/Users/anton/.vimrc	/^function! PasteFromClipBoardMode()$/;"	f	language:Vim
+plot_all	/Users/anton/Desktop/ART/STUDIES/DIPLOM/objects/4ALA/1l2y/center.py	/^def plot_all(*data):$/;"	f	language:Python
+plt	/Users/anton/Desktop/ART/STUDIES/DIPLOM/objects/4ALA/1l2y/center.py	/^import matplotlib.pyplot as plt$/;"	i	language:Python
+re	/Users/anton/Desktop/ART/STUDIES/DIPLOM/bin/scripts/cube_gen.py	/^import re, scanf, sys$/;"	i	language:Python
+re	/Users/anton/Desktop/ART/STUDIES/DIPLOM/objects/4ALA/1l2y/center.py	/^import sys, os, time, re$/;"	i	language:Python
+readCubesFromGamess	/Users/anton/Desktop/ART/STUDIES/DIPLOM/bin/scripts/cube_gen.py	/^    def readCubesFromGamess(self):$/;"	m	language:Python	class:CubeGen
+readLine	/Users/anton/Desktop/index.js	/^function readLine() {$/;"	f	language:JavaScript
+readXYFile	/Users/anton/Desktop/ART/STUDIES/DIPLOM/objects/4ALA/1l2y/center.py	/^def readXYFile(filename):$/;"	f	language:Python
+rgi	/Users/anton/Desktop/ART/STUDIES/DIPLOM/bin/scripts/cube_gen.py	/^from scipy.interpolate import RegularGridInterpolator as rgi$/;"	i	language:Python
+s	/Users/anton/Desktop/stones.js	/^var s   = [];$/;"	v	language:JavaScript
+scanf	/Users/anton/Desktop/ART/STUDIES/DIPLOM/bin/scripts/cube_gen.py	/^import re, scanf, sys$/;"	i	language:Python
+scanf	/Users/anton/Desktop/ART/STUDIES/DIPLOM/objects/4ALA/1l2y/center.py	/^from scanf import scanf$/;"	i	language:Python
+setESPVolume	/Users/anton/Desktop/ART/STUDIES/DIPLOM/bin/scripts/smooth_pcm_full.c	/^void setESPVolume(int *N, char *filename, double **volumeData, int *natoms, double **atoms, double *startcoor, int *Npts, double *bohrInAngs){$/;"	f	language:C++
+setGlobalCoordinates	/Users/anton/Desktop/ART/STUDIES/DIPLOM/bin/scripts/cube_gen.py	/^    def setGlobalCoordinates(self):$/;"	m	language:Python	class:CubeGen
+setGlobalMaximalCoordinates	/Users/anton/Desktop/ART/STUDIES/DIPLOM/bin/scripts/cube_gen.py	/^    def setGlobalMaximalCoordinates(self):$/;"	m	language:Python	class:CubeGen
+setGlobalMinimalCoordinates	/Users/anton/Desktop/ART/STUDIES/DIPLOM/bin/scripts/cube_gen.py	/^    def setGlobalMinimalCoordinates(self):$/;"	m	language:Python	class:CubeGen
+setMatrix	/Users/anton/Desktop/ART/STUDIES/DIPLOM/bin/scripts/cube_gen.py	/^    def setMatrix(self):$/;"	m	language:Python	class:CubeGen
+setPcmCharges	/Users/anton/Desktop/ART/STUDIES/DIPLOM/bin/scripts/smooth_pcm_full.c	/^void setPcmCharges(int *N, char *filename, double **pcmxyz){$/;"	f	language:C++
+smoothPotential	/Users/anton/Desktop/ART/STUDIES/DIPLOM/bin/scripts/smooth_pcm_full.c	/^double smoothPotential(int N_PCM, double *pcm, double x, double y, double z, double treshold, double factor){$/;"	f	language:C++
+sockMerchant	/Users/anton/Desktop/index.js	/^function sockMerchant(n, ar) {$/;"	f	language:JavaScript
+sys	/Users/anton/Desktop/ART/STUDIES/DIPLOM/bin/scripts/cube_gen.py	/^import re, scanf, sys$/;"	i	language:Python
+sys	/Users/anton/Desktop/ART/STUDIES/DIPLOM/objects/4ALA/1l2y/center.py	/^import sys, os, time, re$/;"	i	language:Python
+tab	/Users/anton/.vimrc	/^let tab=4$/;"	v	language:Vim
+Tab_Or_Complete	/Users/anton/.vimrc	/^function! Tab_Or_Complete()$/;"	f	language:Vim
+time	/Users/anton/Desktop/ART/STUDIES/DIPLOM/bin/scripts/cube_gen.py	/^from time import time$/;"	i	language:Python
+time	/Users/anton/Desktop/ART/STUDIES/DIPLOM/objects/4ALA/1l2y/center.py	/^import sys, os, time, re$/;"	i	language:Python
+updateFiles	/Users/anton/CODE/nodejs/hashchecker.js	/^function updateFiles(){$/;"	f	language:JavaScript
+writeToCube	/Users/anton/Desktop/ART/STUDIES/DIPLOM/bin/scripts/cube_gen.py	/^    def writeToCube(self, filename='global.cube'):$/;"	m	language:Python	class:CubeGen
+writeVolumeToCube	/Users/anton/Desktop/ART/STUDIES/DIPLOM/bin/scripts/smooth_pcm_full.c	/^void writeVolumeToCube(int N_ESP, double *volumeData, int natoms, double *atoms, double *startcoor, int *Npts, double bohrInAngs, char *filename){$/;"	f	language:C++
+_shift_numpy_array	/Users/anton/Desktop/ART/STUDIES/DIPLOM/bin/scripts/cube_gen.py	/^    def _shift_numpy_array(self, array):$/;"	m	language:Python	class:Cube
+__del__	/Users/anton/Desktop/ART/STUDIES/DIPLOM/bin/scripts/cube_gen.py	/^    def __del__(self):$/;"	m	language:Python	class:CubeGen	file:
+__init__	/Users/anton/Desktop/ART/STUDIES/DIPLOM/bin/scripts/cube_gen.py	/^    def __init__(self, fd, number=0):$/;"	m	language:Python	class:Cube
+__init__	/Users/anton/Desktop/ART/STUDIES/DIPLOM/bin/scripts/cube_gen.py	/^    def __init__(self,filename):$/;"	m	language:Python	class:CubeGen
