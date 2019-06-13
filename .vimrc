@@ -10,8 +10,6 @@ Plugin 'VundleVim/Vundle.vim'
 
 "Common
 Plugin 'scrooloose/nerdtree'
-"Plugin 'valloric/youcompleteme'
-"Plugin 'xolox/vim-easytags'
 Plugin 'majutsushi/tagbar'
 Plugin 'tpope/vim-fugitive'
 Plugin 'easymotion/vim-easymotion'
@@ -33,6 +31,7 @@ Plugin 'SyntaxAttr.vim'
 Plugin 'dyng/ctrlsf.vim'
 Plugin 'rking/ag.vim'
 Plugin 'godlygeek/tabular'
+Plugin 'jiangmiao/auto-pairs'
 
 "PHP plugins
 Plugin 'stanangeloff/php.vim'
