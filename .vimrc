@@ -10,6 +10,8 @@ Plugin 'VundleVim/Vundle.vim'
 
 "Common
 Plugin 'scrooloose/nerdtree'
+"Plugin 'valloric/youcompleteme'
+"Plugin 'xolox/vim-easytags'
 Plugin 'majutsushi/tagbar'
 Plugin 'tpope/vim-fugitive'
 Plugin 'easymotion/vim-easymotion'
@@ -32,6 +34,7 @@ Plugin 'dyng/ctrlsf.vim'
 Plugin 'rking/ag.vim'
 Plugin 'godlygeek/tabular'
 Plugin 'jiangmiao/auto-pairs'
+
 
 "PHP plugins
 Plugin 'stanangeloff/php.vim'
@@ -153,6 +156,9 @@ set laststatus=2
 "Window users can copy the file to their machine.
 :set dictionary="/usr/dict/words"
 
+"Suppress new line after autocomplete selection
+:inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
+
 "Going throuh tabs by Alt+arrowkey
 :nnoremap <Esc>^[[1;3C :tabn<CR>
 :nnoremap <Esc>^[[1;3D :tabp<CR>
@@ -249,14 +255,10 @@ let g:airline#extensions#tagbar#enabled = 0
 let g:airline#extensions#tabline#show_tab_nr = 1
 let g:airline#extensions#tabline#tab_nr_type = 1
 
-
 " session
 let g:session_autosave = 'no'
 
-"Suppress new line after autocomplete selection
-:inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
-
-" Tab autocompletion
+" Tab to autocomplete
 function! Tab_Or_Complete()
   if col('.')>1 && strpart( getline('.'), col('.')-2, 3 ) =~ '^\w'
     return "\<C-N>"
