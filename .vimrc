@@ -146,19 +146,6 @@ let g:closetag_close_shortcut = '<leader>>'
 " Name of file in ruler
 set laststatus=2
 
-"Use TAB to complete when typing words, else inserts TABs as usual.
-"Uses dictionary and source files to find matching words to complete.
-
-"See help completion for source,
-"Note: usual completion is on <C-n> but more trouble to press all the time.
-"Never type the same word twice and maybe learn a new spellings!
-"Use the Linux dictionary when spelling is in doubt.
-"Window users can copy the file to their machine.
-:set dictionary="/usr/dict/words"
-
-"Suppress new line after autocomplete selection
-:inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
-
 "Going throuh tabs by Alt+arrowkey
 :nnoremap <Esc>^[[1;3C :tabn<CR>
 :nnoremap <Esc>^[[1;3D :tabp<CR>
@@ -258,6 +245,9 @@ let g:airline#extensions#tabline#tab_nr_type = 1
 " session
 let g:session_autosave = 'no'
 
+"Ultisnips
+let g:UltiSnipsExpandTrigger="<c-n>"
+
 " Tab to autocomplete
 function! Tab_Or_Complete()
   if col('.')>1 && strpart( getline('.'), col('.')-2, 3 ) =~ '^\w'
@@ -267,3 +257,8 @@ function! Tab_Or_Complete()
   endif
 endfunction
 :inoremap <Tab> <C-R>=Tab_Or_Complete()<CR>
+:set dictionary="/usr/dict/words"
+
+"Suppress new line after autocomplete selection
+:inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
+
